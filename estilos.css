@@ -1,3 +1,259 @@
+* {
+  padding: 0;
+  margin: 0;
+}
 
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+header {
+  height: 100px;
+  width: 100%;
+  background-color: red;
+}
+
+h1 {
+  text-align: center;
+  color: blue;
+}
+
+h4 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.listadesor {
+  padding-top: 15px;
+  text-align: center;
+}
+
+li {
+  text-decoration: none;
+  display: inline;
+  padding: 30px;
+  margin-top: 20px;
+}
+
+ul a:hover {
+  color: blue;
+}
+
+a {
+  text-decoration: none;
+}
+
+main {
+  padding-top: 80px;
+  background-color: white;
+}
+
+.contenedores {
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.contenedorimagen1 {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+i {
+  color: grey;
+}
+
+.contenedorgrid {
+  display: grid;
+  grid-column: repeat(6, 1fr);
+  grid-template-rows: repeat(1);
+}
+
+.fotocliente {
+  padding-top: 40px;
+  text-align: center;
+}
+
+img {
+  border-radius: 5px;
+}
+
+#textitocliente {
+  padding-top: 20px;
+  text-align: center;
+}
+
+section {
+  background-color: gray;
+  padding-bottom: 30px;
+  width: 100%;
+}
+
+.ubicacion {
+  padding-top: 40px;
+  text-align: center;
+}
+
+iframe {
+  border-radius: 1.5%;
+}
+
+footer {
+  background-color: blue;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  width: 100%;
+}
+
+.redes {
+  padding-top: 15px;
+  word-spacing: 20px;
+}
+
+.home {
+  height: 40px;
+  width: 60px;
+  color: white;
+  font-size: 15px;
+  background-color: red;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  text-align: center;
+  text-decoration: none;
+  line-height: 30px;
+  border-radius: 50%;
+  border: solid #000;
+}
+
+/**pagina tarjetas**/
+.carousel {
+  text-align: center;
+}
+
+.carousel-caption {
+  color: black;
+  margin-top: 50px;
+}
+
+.articletarjetas {
+  padding-top: 150px;
+  text-align: center;
+}
+
+.tarj {
+  font-family: "Archivo Black", sans-serif;
+}
+
+/**pagina prestamos**/
+.articleprestamos {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+#cerdito {
+  font-size: 50px;
+  color: rgba(242, 123, 112, 0.87);
+}
+
+#billetera {
+  font-size: 50px;
+  color: burlywood;
+}
+
+#guita {
+  font-size: 50px;
+  color: green;
+}
+
+/**pagina inversiones**/
+.articleinversiones {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+#vault {
+  font-size: 50px;
+  color: #000;
+}
+
+#dollar {
+  font-size: 50px;
+  color: rgb(22, 172, 165);
+}
+
+#recipe {
+  font-size: 50px;
+  color: blue;
+}
+
+#holding {
+  font-size: 50px;
+  color: rebeccapurple;
+}
+
+/**Pagina de seguros**/
+#tuhogar {
+  margin-top: 50px;
+}
+
+#cosas {
+  margin-top: 50px;
+}
+
+/*Transformaciones, transiciones y animaciones*/
+.animate__fadeInLeftBig {
+  animation-duration: 1s;
+}
+
+.animate__backInUp {
+  animation-delay: 3s;
+  animation-duration: 0.5s;
+}
+
+.item1:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+.item2:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+.contenedor1:hover {
+  transform: scale(1.15);
+  transition: 1s;
+}
+
+.contenedor3:hover {
+  transform: scale(1.15);
+  transition: 1s;
+}
+
+.contenedor4:hover {
+  transform: scale(1.15);
+  transition: 1s;
+}
+
+.contenedor5:hover {
+  transform: scale(1.15);
+  transition: 1s;
+}
+
+.animate__animated {
+  transition: 2s;
+}
 
 /*# sourceMappingURL=estilos.css.map */
