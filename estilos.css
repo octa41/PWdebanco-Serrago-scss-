@@ -6,91 +6,60 @@
 body {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
+body a {
+  text-decoration: none;
+}
 
 header {
   height: 100px;
   width: 100%;
   background-color: red;
 }
-
-h1 {
+header h1 {
   text-align: center;
   color: blue;
-}
-
-h4 {
-  text-align: center;
-}
-
-h3 {
-  text-align: center;
-  padding-top: 20px;
-}
-
-.listadesor {
-  padding-top: 15px;
-  text-align: center;
-}
-
-li {
   text-decoration: none;
-  display: inline;
-  padding: 30px;
-  margin-top: 20px;
 }
-
-ul a:hover {
-  color: blue;
-}
-
-a {
-  text-decoration: none;
+header h4 {
+  text-align: center;
+  color: black;
 }
 
 main {
   padding-top: 80px;
   background-color: white;
 }
-
-.contenedores {
+main .contenedorimagen1 {
+  text-align: center;
+}
+main .contenedores {
   text-align: center;
   margin-top: 80px;
   margin-bottom: 80px;
   display: flex;
   justify-content: center;
 }
-
-.contenedorimagen1 {
-  text-align: center;
-}
-
-a {
+main a {
   text-decoration: none;
   color: black;
 }
-
-i {
+main i {
   color: grey;
 }
-
-.contenedorgrid {
-  display: grid;
-  grid-column: repeat(6, 1fr);
-  grid-template-rows: repeat(1);
-}
-
-.fotocliente {
+main article .fotocliente {
   padding-top: 40px;
   text-align: center;
 }
-
-img {
+main article img {
   border-radius: 5px;
 }
-
-#textitocliente {
+main article #textitocliente {
   padding-top: 20px;
   text-align: center;
+}
+main article h3 {
+  text-align: center;
+  padding-top: 20px;
 }
 
 section {
@@ -98,14 +67,16 @@ section {
   padding-bottom: 30px;
   width: 100%;
 }
-
-.ubicacion {
+section .ubicacion {
   padding-top: 40px;
   text-align: center;
 }
-
-iframe {
+section iframe {
   border-radius: 1.5%;
+}
+section h3 {
+  text-align: center;
+  padding-top: 20px;
 }
 
 footer {
@@ -115,8 +86,7 @@ footer {
   padding-top: 10px;
   width: 100%;
 }
-
-.redes {
+footer .redes {
   padding-top: 15px;
   word-spacing: 20px;
 }

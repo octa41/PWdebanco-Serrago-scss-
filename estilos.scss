@@ -5,106 +5,99 @@
 
 body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    a{
+        text-decoration: none;
+    }
 }
 
 header{
     height: 100px;
     width: 100%;
     background-color: red;
-}
+    
+    h1{
+        text-align: center;
+        color: blue;
+        text-decoration: none;
+    }
 
-h1{
-    text-align: center;
-    color: blue;
-}
-
-
-h4{
-    text-align: center;
-}
-
-
-h3{
-    text-align: center;
-    padding-top: 20px;
-}
-
-.listadesor{
-    padding-top: 15px;
-    text-align: center;
-}
-
-li{
-    text-decoration: none;
-    display: inline;
-    padding: 30px;
-    margin-top: 20px;
-}
-
-ul a:hover{
-    color: blue;
-}
-
-a{
-    text-decoration: none;
+    h4{
+        text-align: center;
+        color: black;
+    }
+    
 }
 
 main{
     padding-top: 80px;
     background-color: white;
+
+
+    .contenedorimagen1{
+        text-align: center;
+    }
+
+    .contenedores{
+        text-align: center;
+        margin-top: 80px;
+        margin-bottom: 80px;
+        display: flex;
+        justify-content: center;
+    }
+
+    a{
+        text-decoration: none;
+        color: black;
+    }
+
+    i{
+        color: grey;
+    }
+
+    article{
+        
+        .fotocliente{
+            padding-top: 40px;
+            text-align: center;
+        }
+
+
+        img{
+            border-radius: 5px;
+        }
+        
+        #textitocliente{
+            padding-top: 20px;
+            text-align: center;
+        }
+
+        h3{
+            text-align: center;
+            padding-top: 20px;
+        }
+    }
+
 }
 
-.contenedores{
-    text-align: center;
-    margin-top: 80px;
-    margin-bottom: 80px;
-    display: flex;
-    justify-content: center;
-}
-
-.contenedorimagen1{
-    text-align: center;
-}
-
-a{
-    text-decoration: none;
-    color: black;
-}
-i{
-    color: grey;
-}
-
-.contenedorgrid{
-    display: grid;
-    grid-column: repeat(6, 1fr);
-    grid-template-rows: repeat(1);
-}
-
-.fotocliente{
-    padding-top: 40px;
-    text-align: center;
-}
-
-img{
-    border-radius: 5px;
-}
-
-#textitocliente{
-    padding-top: 20px;
-    text-align: center;
-}
 section{
     background-color: gray;
     padding-bottom: 30px;
     width: 100%;
-}
-.ubicacion{
-    padding-top: 40px;
-    text-align: center;
-}
 
-iframe{
-    border-radius: 1.5%;
+    .ubicacion{
+        padding-top: 40px;
+        text-align: center;
+    }
+
+    iframe{
+        border-radius: 1.5%;
+    }
+
+    h3{
+        text-align: center;
+        padding-top: 20px;
+    }
 }
 
 
@@ -114,11 +107,13 @@ footer{
     text-align: center;
     padding-top: 10px;
     width: 100%;
-}
 
-.redes{
+    .redes{
     padding-top: 15px;
     word-spacing: 20px;
+}
+
+
 }
 
 .home{
